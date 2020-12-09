@@ -1,0 +1,21 @@
+.accordian {
+    width: 300px;
+}
+
+.question-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+li {
+    border: 1px solid black;
+    border-radius: 15px;
+    list-style: none;
+    margin: 10px;
+}
+
+.accordian-content {
+    display: none;
+}
